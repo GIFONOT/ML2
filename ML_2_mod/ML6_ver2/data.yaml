@@ -1,0 +1,13 @@
+train: /Users/andrejsmirnov/PycharmProjects/ML2/ML_2_mod/ML6_ver2/train/images
+val: /Users/andrejsmirnov/PycharmProjects/ML2/ML_2_mod/ML6_ver2/valid/images
+test: /Users/andrejsmirnov/PycharmProjects/ML2/ML_2_mod/ML6_ver2/test/images
+
+nc: 3
+names: ['football', 'player', 'referee']
+
+roboflow:
+  workspace: roboflow-100
+  project: soccer-players-5fuqs
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/roboflow-100/soccer-players-5fuqs/dataset/2
