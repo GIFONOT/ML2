@@ -2,12 +2,12 @@ train: /Users/andrejsmirnov/PycharmProjects/ML2/ML_2_mod/ML6/train/images
 val: /Users/andrejsmirnov/PycharmProjects/ML2/ML_2_mod/ML6/valid/images
 test: /Users/andrejsmirnov/PycharmProjects/ML2/ML_2_mod/ML6/test/images
 
-nc: 2
-names: ['apple', 'damaged_apple']
+nc: 5
+names: ['Cell', 'Cell-Multi', 'No-Anomaly', 'Shadowing', 'Unclassified']
 
 roboflow:
   workspace: roboflow-100
-  project: apples-fvpl5
+  project: solar-panels-taxvb
   version: 2
   license: CC BY 4.0
-  url: https://universe.roboflow.com/roboflow-100/apples-fvpl5/dataset/2
+  url: https://universe.roboflow.com/roboflow-100/solar-panels-taxvb/dataset/2
